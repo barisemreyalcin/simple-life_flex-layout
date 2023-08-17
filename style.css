@@ -10,6 +10,13 @@ img {
     display: block;
 }
 
+.img-full {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 2em;
+}
+
 /* 
     TYPOGRAPHY
 */
@@ -23,6 +30,10 @@ h1, h2, h3 {
 h1 {
     font-size: 2rem;
     margin: 0;
+}
+
+h3 {
+    color: #1792d2;
 }
 
 a {
@@ -88,6 +99,10 @@ nav a,
     text-transform: uppercase;
 }
 
+.widget-recent-post-title {
+    color: #143774;
+}
+
 /* 
     LAYOUT
 */
@@ -145,9 +160,9 @@ nav a:hover, nav a:focus {
     color: #1792d2;
 }
 
-/* .current-page {
+.current-page {
     border-bottom: 1px solid #707070;
-} */
+}
 
 .current-page:hover {
     color: #707070;
