@@ -3,6 +3,7 @@ body {
     font-size: 1.125rem;
     font-weight: 300;
     margin: 0;
+    line-height: 1.6;
 }
 
 img {
@@ -62,8 +63,10 @@ a:focus {
 }
 
 .article-read-more,
-.subtitle {
-    letter-spacing: .175em;
+.subtitle,
+.widget-title, 
+nav a {
+    letter-spacing: 1.6px;
 }
 
 .article-read-more {
@@ -91,6 +94,7 @@ nav a,
 .widget-title,
 .widget-recent-post-title {
     font-size: 1rem;
+    line-height: 1.1;
 }
 
 .widget-title {
@@ -127,7 +131,7 @@ header {
 
 footer {
     background-color: #143774;
-    color: #fff;
+    color: rgba(255, 255, 255, .6);
     text-align: center;
     padding: 3em;
 }
